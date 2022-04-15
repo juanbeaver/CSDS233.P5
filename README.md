@@ -21,3 +21,12 @@ Time spent: 2 hr. (10% - 25%)
   * This was a lot easier to implement as it was easier to keep track of the different arrays and iterating variables.&#x20;
 
 Time spent: 45 min (50% done)
+
+## Apr. 15, 2022, 3:00PM
+
+* Finished the quickSort method.&#x20;
+  * At first I was having some issues with the way i was choosing my pivot so I went with choosing the last value as the pivot.&#x20;
+  * This sort was also difficult understand for me, but after going for a simpler solution, I was able to get the right result.&#x20;
+* Started completing my SortTester class.
+
+Time Spent: 40 min (90% done)
