@@ -15,15 +15,23 @@ public class SortTester {
         Sort.insertionSort(arrToSort);
 
         // Make sure array was sorted correctly
-        assertTrue(Arrays.equals(assertArr, arrToSort));
+        assertArrayEquals(assertArr, arrToSort);
 
         //Test correct handling of empty array
+        int[]arrToSort2 = new int[10];
+        int[]assertArr2 = arrToSort2.clone();
+        Arrays.sort(assertArr2);
+        Sort.insertionSort(arrToSort2);
+
+        assertArrayEquals(assertArr2, arrToSort2);
 
         //Test correct handling of array with single element
+        int[]arrToSort3 = {5};
+        int[]assertArr3 = arrToSort3.clone();
+        Arrays.sort(assertArr3);
+        Sort.insertionSort(arrToSort3);
 
-        //Test correct handling of array with values without a lot of variance
-
-
+        assertArrayEquals(assertArr3, arrToSort3);
     }
 
     @Test
@@ -35,13 +43,23 @@ public class SortTester {
         Sort.quickSort(arrToSort);
 
         // Make sure array was sorted correctly
-        assertTrue(Arrays.equals(assertArr, arrToSort));
+        assertArrayEquals(assertArr, arrToSort);
 
         //Test correct handling of empty array
+        int[]arrToSort2 = new int[10];
+        int[]assertArr2 = arrToSort2.clone();
+        Arrays.sort(assertArr2);
+        Sort.quickSort(arrToSort2);
+
+        assertArrayEquals(assertArr2, arrToSort2);
 
         //Test correct handling of array with single element
+        int[]arrToSort3 = {5};
+        int[]assertArr3 = arrToSort3.clone();
+        Arrays.sort(assertArr3);
+        Sort.quickSort(arrToSort3);
 
-        //Test correct handling of array with values without a lot of variance
+        assertArrayEquals(assertArr3, arrToSort3);
     }
 
     @Test
@@ -53,22 +71,23 @@ public class SortTester {
         Sort.mergeSort(arrToSort);
 
         // Make sure array was sorted correctly
-        assertTrue(Arrays.equals(assertArr, arrToSort));
+        assertArrayEquals(assertArr, arrToSort);
 
         //Test correct handling of empty array
+        int[]arrToSort2 = new int[10];
+        int[]assertArr2 = arrToSort2.clone();
+        Arrays.sort(assertArr2);
+        Sort.mergeSort(arrToSort2);
+
+        assertArrayEquals(assertArr2, arrToSort2);
 
         //Test correct handling of array with single element
+        int[]arrToSort3 = {5};
+        int[]assertArr3 = arrToSort3.clone();
+        Arrays.sort(assertArr3);
+        Sort.mergeSort(arrToSort3);
 
-        //Test correct handling of array with values without a lot of variance
-
-    }
-
-    @Test
-    public void testRandArr(){
-
-
+        assertArrayEquals(assertArr3, arrToSort3);
 
     }
-
-
 }
