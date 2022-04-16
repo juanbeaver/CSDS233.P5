@@ -30,3 +30,13 @@ Time spent: 45 min (50% done)
 * Started completing my SortTester class.
 
 Time Spent: 40 min (90% done)
+
+## Apr. 15, 2022, 5:00 PM
+
+* Went through and wrote comments were I had missed or where needed.&#x20;
+* Started writing the demonstration.
+  * Wrote a helper method that returned time results for the specified sorting method in a string array.
+* Finished writing the demonstration and plotted and graphed in a spreadsheet.
+* Chose to implement bubble sort for extra extra credit.
+* Also compared all of my sort implementations to the java built in sorting method.
+* Finished Sort analysis report.
